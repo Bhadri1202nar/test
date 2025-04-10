@@ -1,5 +1,4 @@
 hunger=input("Are you ready for it ")
-if hunger == "yes":
-    print("The d day has come ")
-else:
-    print("Im sorry")
+print("Are you ready for it? ", hunger)
+if hunger=="yes":  
+    print("Let's eat!")
